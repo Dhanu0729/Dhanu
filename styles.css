@@ -5,14 +5,14 @@ body {
     color: #333;
 }
 h1 {
-    color: #4CAF50;
+    color: #636B2F;
 }
 p {
     font-size: 18px;
 }
 /* Style for the 'Works' section */
 #works {
-    background-color: #f9f9f9;  /* Light background color */
+    background-color: #AC9362;  /* Light background color */
     padding: 30px;  /* Add padding around the section */
     margin-top: 40px;  /* Space it out from previous sections */
 }
