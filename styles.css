@@ -10,3 +10,51 @@ h1 {
 p {
     font-size: 18px;
 }
+/* Style for the 'Works' section */
+#works {
+    background-color: #f9f9f9;  /* Light background color */
+    padding: 30px;  /* Add padding around the section */
+    margin-top: 40px;  /* Space it out from previous sections */
+}
+
+#works h2 {
+    text-align: center;  /* Center the title */
+    font-size: 2em;  /* Bigger font size */
+    color: #333;  /* Dark color for the title */
+    margin-bottom: 20px;  /* Add space below the title */
+}
+
+/* Style for each project in 'Works' */
+.work-item {
+    background-color: white;  /* White background for each project */
+    border: 1px solid #ddd;  /* Light border around each project */
+    padding: 20px;  /* Padding inside the project container */
+    margin-bottom: 20px;  /* Space between projects */
+    border-radius: 8px;  /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);  /* Light shadow for depth */
+}
+
+/* Style for project titles */
+.work-item h3 {
+    color: #4CAF50;  /* Green color for project titles */
+    margin-bottom: 10px;  /* Space below each title */
+}
+
+/* Style for project descriptions */
+.work-item p {
+    font-size: 16px;  /* Font size for descriptions */
+    color: #555;  /* Dark gray text color */
+}
+
+/* Style for links (buttons) */
+.work-item a {
+    display: inline-block;  /* Make the link look like a button */
+    margin-top: 15px;  /* Add some space above the link */
+    text-decoration: none;  /* Remove the underline from the link */
+    color: #fff;  /* White text color for the link */
+    background-color: #4CAF50;  /* Green background for the link */
+    padding: 10px 20px;  /* Padding inside the button */
+    border-radius: 5px;  /* Rounded corners for the button */
+    font-weight: bold;  /* Bold text inside the button */
+}
+
