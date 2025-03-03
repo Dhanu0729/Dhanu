@@ -105,3 +105,66 @@ body {
         margin-bottom: 20px;  /* Add some space between stacked boxes */
     }
 }
+#portfolio {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.box {
+    width: 30%;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.box h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.box p {
+    font-size: 1em;
+    color: #555;
+}
+
+.see-more-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.see-more-btn:hover {
+    background-color: #0056b3;
+}
+
+.details {
+    margin-top: 10px;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.details ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.details ul li {
+    margin: 5px 0;
+}
+
+.details ul li ul {
+    margin-left: 20px;
+    list-style-type: square;
+}
+
